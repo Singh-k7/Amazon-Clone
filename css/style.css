@@ -172,7 +172,7 @@ a{
   max-width: 1480px;
   margin-bottom: 10px;
   padding: 20px 0;
-  background-image: url(/Image/col-back.jpg);
+  background-image: url('../Image/col-back.jpg');
   background-size: contain;  
   display: flex;
   justify-content: space-evenly;
@@ -202,51 +202,51 @@ a{
 }
 
 .co-1{
-  background-image: url(/Image/Screenshot\ 2024-03-02\ 230649.png);
+  background-image: url('../Image/Screenshot\ 2024-03-02\ 230649.png');
   background-size: cover;
 }
 .co-2{
-  background-image: url(/Image/Screenshot\ 2024-03-02\ 230508.png);
+  background-image: url('../Image/Screenshot\ 2024-03-02\ 230508.png');
   background-size: cover;
 }
 .co-3{
-  background-image: url(/Image/Screenshot\ 2024-03-02\ 230623.png);
+  background-image: url('../Image/Screenshot\ 2024-03-02\ 230623.png');
   background-size: cover;
 }
 .co-4{
-  background-image: url(/Image/Screenshot\ 2024-03-02\ 232207.png);
+  background-image: url('../Image/Screenshot\ 2024-03-02\ 232207.png');
   background-size: cover;
 }
 .co-5{
-  background-image: url(/Image/Screenshot\ 2024-03-02\ 230649.png);
+  background-image: url('../Image/Screenshot\ 2024-03-02\ 230649.png');
   background-size: cover;
 }
 .co-6{
-  background-image: url(/Image/Screenshot\ 2024-03-02\ 232143.png);
+  background-image: url('../Image/Screenshot\ 2024-03-02\ 232143.png');
   background-size: cover;
 }
 .co-7{
-  background-image: url(/Image/Screenshot\ 2024-03-03\ 221141.png);
+  background-image: url('../Image/Screenshot\ 2024-03-03\ 221141.png');
   background-size: cover;
 }
 .co-8{
-  background-image: url(/Image/Screenshot\ 2024-03-03\ 221052.png);
+  background-image: url('../Image/Screenshot\ 2024-03-03\ 221052.png');
   background-size: cover;
 }
 .co-9{
-  background-image: url(/Image/Screenshot\ 2024-03-03\ 221035.png);
+  background-image: url('../Image/Screenshot\ 2024-03-03\ 221035.png');
   background-size: cover;
 }
 .co-10{
-  background-image: url(/Image/Screenshot\ 2024-03-03\ 222407.png);
+  background-image: url('../Image/Screenshot\ 2024-03-03\ 222407.png');
   background-size: cover;
 }
 .co-11{
-  background-image: url(/Image/Screenshot\ 2024-03-03\ 220921.png);
+  background-image: url('../Image/Screenshot\ 2024-03-03\ 220921.png');
   background-size: cover;
 }
 .co-12{
-  background-image: url(/Image/Screenshot\ 2024-03-03\ 222439.png);
+  background-image: url('../Image/Screenshot\ 2024-03-03\ 222439.png');
   background-size: cover;
 }
 
@@ -275,7 +275,7 @@ a{
 .buttom-logo{
   height: 60px;
   width: 120px;
-  background-image: url(/Image/amazon_logo.png);
+  background-image: url('../Image/amazon_logo.png');
   background-size: cover; 
 }
 
