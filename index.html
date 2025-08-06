@@ -17,7 +17,7 @@
     <header>
       <div class="navbar">
         <div class="nav-logo border">
-          <a href="#"><div class="logo"></div></a>
+          <a href="index.html"><div class="logo"></div></a>
         </div>
 
         <div class="nav-add border">
@@ -51,11 +51,16 @@
           </div>
         </div>
 
-        <div class="acc-list border">
-          <a href="#">
+        <div class="acc-list border dropdown">
+          <a href="#" class="dropdown-toggle">
             <p class="return"><span>Hello,</span></p>
             <p class="order">Account & Lists</p>
           </a>
+          <div class="dropdown-menu">
+            <a href="#">Your Account</a>
+            <a href="#">Your Orders</a>
+            <a href="#">Sign Out</a>
+          </div>
         </div>
 
         <div class="orders border">
@@ -186,3 +191,35 @@
     <script src="../Funcationality.js"></script>
   </body>
 </html>
+
+<style>
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  background: #fff;
+  color: #222f3d;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+  border-radius: 6px;
+  z-index: 100;
+  padding: 10px 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: #222f3d;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.dropdown-menu a:hover {
+  background: #f3f3f3;
+}
+</style>
